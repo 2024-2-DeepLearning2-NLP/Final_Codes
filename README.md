@@ -32,5 +32,8 @@ omission dataset link:
 #### 5. We do the omission detection task by running ***train.sh*** with the dataset we obtained 
 ![image](https://github.com/user-attachments/assets/5f6783a6-00b9-42fd-9b95-ae4659512cd3)
 
-#### 6. We do the post_edit by running ***file name~~***. 
+#### 6. We do the post_edit by running ***post_edit_train.sh***. 
+![image](https://github.com/user-attachments/assets/f4224db5-c9ea-44b1-b447-d94503b7d562)
+we were not able to do the full post edit process since the GPU server was super slow, and finally couldn’t connect to the GPU server in the end.
+
 
