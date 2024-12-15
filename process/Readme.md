@@ -38,6 +38,8 @@ and the brief process of this shell script is as below.
 
 ```
 # when we run
+PYTHONPATH=. python /home/gaya/group1/OLDS/src/main.py -do_process True -dataset data/qmsum -save_path data/qmsum_omission -preprocessing_num_workers 32
+
 
 ```
 
