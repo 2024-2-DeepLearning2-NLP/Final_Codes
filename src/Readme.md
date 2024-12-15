@@ -1,5 +1,36 @@
 ## in src
 ### main.py shows the overall working process
+```
+def main():
+    args = parse_args()
+    # Initialize the accelerator. We will let the accelerator handle device placement for us in this example.
+    accelerator = Accelerator()
+
+    # Initialize the logger
+    logger = get_logger(args.log_file, accelerator)
+
+    # If passed along, set the training seed now.
+    if args.seed is not None:
+        set_seed(args.seed)
+        random.seed(args.seed)
+
+    if args.do_train:
+        train(args, logger, accelerator)
+    if args.do_test:
+        test_all(args, logger, accelerator)
+    if args.do_predict:
+        predict_all(args, logger, accelerator)
+    if args.do_process_train:
+        build_omission_data(args, logger, accelerator)
+    if args.do_process:
+        group_omission_data(args)
+        sleep(10)
+        build_omission_label(args)
+    if args.do_edit_train:
+        post_edit_train(args, logger, accelerator)
+    if args.do_edit_test:
+        post_edit_evaluate(args, logger, accelerator)
+```
 
 
 
