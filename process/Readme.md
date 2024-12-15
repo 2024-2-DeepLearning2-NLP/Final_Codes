@@ -36,11 +36,24 @@ this process doesn't make any log files.
 
 and the brief process of this shell script is as below. 
 
+
+When we run
 ```
-# when we run
 PYTHONPATH=. python /home/gaya/group1/OLDS/src/main.py -do_process True -dataset data/qmsum -save_path data/qmsum_omission -preprocessing_num_workers 32
-
-
 ```
+The following function gets executed.
+```
+group_omission_data() & build_omission_label()   # funtion's path: OLDS/src/others/build_omission_data.py
+```
+finally we get omission.save data. 
+
+omission.save dataset link: <https://github.com/2024-2-DeepLearning2-NLP/Omission_Dataset_We_Made>
 
 
+you can ignore 
+```
+data_statistics.xlsx
+test_results.txt
+tw_train_sample
+tweetsum_omission.txt
+```
