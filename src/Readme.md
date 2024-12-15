@@ -32,10 +32,13 @@ def main():
         post_edit_evaluate(args, logger, accelerator)    ---
 ```
 
+#### ***models*** → includes train/test ... files for the detection task
 
+#### ***others*** → includes build_omission_data.py, dataset.py, ... necessary tools for training/evaluating. 
 
+#### ***seq2seq*** → includes train/test ... files for build_omission_data() process. 
 
-
+#### args.py → arguments
 
 
 #### Do the omission detection task by running ***train.sh*** with the dataset we obtained 
