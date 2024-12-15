@@ -19,6 +19,8 @@ We didn't include dataset in this repository
 
 
 #### 1. main_"dataset".sh →→ we train our model and build omission dataset.
+![image](https://github.com/user-attachments/assets/12bad884-942c-4a62-ac62-70062b8d2f66)
+
 #### 2. process.sh →→ we group omission datasets built at step 1, and build omission labels 
 #### 3. 
 
