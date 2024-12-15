@@ -26,10 +26,10 @@ def main():
         group_omission_data(args)                      | → Building dataset
         sleep(10)                                      |
         build_omission_label(args)                ------
-    if args.do_edit_train:                        ------
-        post_edit_train(args, logger, accelerator)     | → Post Editing
-    if args.do_edit_test:                              |
-        post_edit_evaluate(args, logger, accelerator)---
+    if args.do_edit_train:                            ------
+        post_edit_train(args, logger, accelerator)         | → Post Editing
+    if args.do_edit_test:                                  |
+        post_edit_evaluate(args, logger, accelerator)    ---
 ```
 
 
