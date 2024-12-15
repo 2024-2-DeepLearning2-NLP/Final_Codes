@@ -34,6 +34,6 @@ omission dataset link:
 
 #### 6. We do the post_edit by running ***post_edit_train.sh***. 
 ![image](https://github.com/user-attachments/assets/f4224db5-c9ea-44b1-b447-d94503b7d562)
-we were not able to do the full post edit process since the GPU server was super slow, and finally couldn’t connect to the GPU server in the end.
+we were not able to do the full post edit process since the GPU server was super slow, and finally couldn’t even connect to the GPU server in the end.
 
 
