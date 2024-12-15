@@ -25,7 +25,7 @@ We didn't include dataset in this repository
 ![image](https://github.com/user-attachments/assets/1f2878e8-75dc-4bdd-8878-ebf9fdc0dd3a)
 
 #### 4. Get the final Omisssion Datasets. 
-omission dataset link: 
+omission dataset link: <https://github.com/2024-2-DeepLearning2-NLP/Omission_Dataset_We_Made>
 
 
 ## in src
