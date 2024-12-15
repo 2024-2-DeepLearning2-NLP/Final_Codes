@@ -29,3 +29,8 @@ omission dataset link:
 
 
 ## in src
+#### 5. We do the omission detection task by running ***train.sh*** with the dataset we obtained 
+![image](https://github.com/user-attachments/assets/5f6783a6-00b9-42fd-9b95-ae4659512cd3)
+
+#### 6. We do the post_edit by running ***file name~~***. 
+
