@@ -1,0 +1,304 @@
+{
+    "dialogue": "So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn’t recognise either source anymore for some reason. Any ideas? https://t.co/m9DPQbkftD\r\n@AppleSupport please read the above.\r\n@135060 Let’s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?\r\n@AppleSupport My iPhone is on 11.1.2, and my watch is on 4.1.\r\n@135060 Thank you. Have you tried restarting both devices since this started happening?\r\n@AppleSupport I’ve restarted both, also un-paired then re-paired the watch.\r\n@135060 Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?\r\n@AppleSupport Yes, everything seems fine, it’s just Health and activity.\r\n@135060 Let’s move to DM and look into this a bit more. When reaching out in DM, let us know when this first started happening please. For example, did it start after an update or after installing a certain app? https://t.co/GDrqU22YpT",
+    "summary": "Health and activity functions are not working with the smartwatch and phone. Asks if the customer had restarted the items, offers to take this to DM to help resolve the issue.",
+    "id": "b065262210783596c1fe79466b8f8985",
+    "preds": [
+        {
+            "pred": "Customer is complaining about the worst service and states that they have received a right in his iPhone.\nAgent requests to DM his email address for further assistance.",
+            "source": "baseline",
+            "strategy": "sample"
+        },
+        {
+            "pred": "Customer is complaining about the worst service where they have not yet yet yet even though they have tried his iPhone 8 8.\nAgent updates to send a DM their name, email and also asks to send the URL for further assistance.",
+            "source": "baseline",
+            "strategy": "sample"
+        },
+        {
+            "pred": "Customer is complaining about the worst service of his iPhone 8.\nAgent updated that they don't have any issues with the time and the customer to send them via provided URL for further assistance.",
+            "source": "baseline",
+            "strategy": "sample"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to change the phone has been sent an hour.\nAgent updated the customer to send a look into this issue and also requests to DM for further assistance.",
+            "source": "baseline",
+            "strategy": "sample"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent is requesting for the trouble and requests to send the provided URL for further assistance.\nAlso suggests to reach out about the issue.",
+            "source": "baseline",
+            "strategy": "beam"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent is requesting for the trouble and requests to send the provided URL for further assistance.\nAlso suggests to reach out the issue.",
+            "source": "baseline",
+            "strategy": "beam"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent updated that they have a look into the episodes and requests to send the provided URL for further assistance.",
+            "source": "baseline",
+            "strategy": "sample"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent is requesting for the trouble and requests to DM the provided URL for further assist further assistance.",
+            "source": "baseline",
+            "strategy": "beam"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent is requesting for the trouble and requests to DM the provided URL for further assistance.",
+            "source": "baseline",
+            "strategy": "beam"
+        },
+        {
+            "pred": "Customer is complaining about the service where he is unable to share his iPhone 8.\nAgent is requesting for the trouble and requests to send the provided URL for further assistance.",
+            "source": "baseline",
+            "strategy": "beam"
+        }
+    ],
+    "oracle_labels": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "pred_labels": [
+        [
+            2,
+            3,
+            4,
+            6,
+            8
+        ],
+        [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+        ],
+        [
+            0,
+            2,
+            3,
+            4,
+            6,
+            8
+        ],
+        [
+            2,
+            3,
+            5,
+            6,
+            8
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            8
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            8
+        ],
+        [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            6,
+            8
+        ]
+    ],
+    "omission_labels": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            5,
+            8
+        ],
+        [
+            0,
+            5,
+            8
+        ],
+        [
+            0,
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            5,
+            8
+        ]
+    ],
+    "omission_words": [
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ],
+            [
+                "dm"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ],
+            [
+                "dm"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ],
+            [
+                "dm"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ],
+            [
+                "dm"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ]
+        ],
+        [
+            [
+                "activity",
+                "health"
+            ],
+            [
+                "restarted"
+            ],
+            [
+                "dm"
+            ]
+        ]
+    ]
+}
